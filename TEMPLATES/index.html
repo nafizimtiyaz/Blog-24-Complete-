@@ -1,0 +1,1363 @@
+{% load static %}
+
+<html lang="en">
+
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resurrection</title>
+    <!-- Style CSS -->
+    <link href={%static "css/bootstrap.min.css"%} rel="stylesheet">
+    <link href={%static "css/style.css"%} rel="stylesheet">
+    <link href={%static "css/flexslider.css"%} rel="stylesheet">
+    <link href={%static "css/owl.carousel.css"%} rel="stylesheet">
+    <link href={%static "css/animate.css"%} rel="stylesheet">
+    <link href={%static "css/owl.theme.css"%} rel="stylesheet">
+    <link href={%static "css/font-awesome.min.css"%} rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src={%static "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"%}></script>
+    <script src={%static "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"%}></script>
+
+    <![endif]-->
+</head>
+
+<body>
+
+	<!--top bar-->
+	<section class="top-bar">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-sm-6">
+	                <ul class="list-inline top-nav">
+<!--	                    <li><a href="#">News</a></li>-->
+<!--	                    <li><a href="#">Sports</a></li>-->
+<!--	                    <li><a href="#">Weather</a></li>-->
+<!--	                    <li><a href="#">Sports</a></li>-->
+<!--	                    <li><a href="#">Politics</a></li>-->
+
+
+
+	                </ul>
+	            </div>
+	            <div class="col-sm-6 text-right">
+	                <ul class="list-inline top-social">
+	                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	                    <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+	                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+    <!--top bar end-->
+
+	<!--Start Ad section-->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 text-center">
+					<div class="addDiv">
+						<a href="https://www.templatesell.com/item/quality-construction-pro-wordpress-themes/" target="blank">
+							<img src={%static "img/prothom.gif" %} class="img-responsive" alt="ad">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--End Ad section-->
+
+<!--	&lt;!&ndash;header&ndash;&gt;-->
+<!--    <section class="header">-->
+<!--	    <div class="container">-->
+<!--	        <div class="row">-->
+<!--	            <div class="col-sm-3 col-md-3">-->
+<!--	                <a href="index-2.html" class="logo"><img src="img/logo.png" alt="logo"></a>-->
+<!--	            </div>-->
+<!--	            <div class="col-sm-9 col-md-9 text-right">-->
+<!--	                <a href={%static "https://www.templatesell.com/item/quality-construction-pro-wordpress-themes/"%} target="blank">-->
+<!--	                	<img src="img/ad/add-1.jpg" class="img-responsive pull-right" alt="ad">-->
+<!--	                </a>-->
+<!--	            </div>-->
+<!--	        </div>-->
+<!--	    </div>-->
+<!--	</section>-->
+<!--    &lt;!&ndash;end header&ndash;&gt;-->
+
+    <!--navigation-->
+    <section class="navigation">
+	    <div class="container">
+	        <!-- Static navbar -->
+	        <nav class="navbar navbar-default yamm">
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+	                	<span class="sr-only">Toggle navigation</span>
+	                	<span class="icon-bar"></span>
+	                	<span class="icon-bar"></span>
+	                	<span class="icon-bar"></span>
+	                </button>
+	            </div>
+	            <div id="navbar" class="navbar-collapse collapse">
+	                <ul class="nav navbar-nav">
+						<li class="active"><a href="{%url 'home'%}" class="logo padding"><img src={%static "img/logo.png" %} alt="logo"></a></li>
+	                	<li class="active"><a href="{%url 'home'%}"><i class="fa fa-home"></i></a></li>
+	                    </li>
+	                    <li><a href="#আর্টিকেল">আর্টিকেল</a></li>
+	                    <li><a href="#বুক রিভিউ">বুক রিভিউ</a></li>
+	                    <li><a href="#সমাজ সংস্কার">সমাজ সংস্কার</a></li>
+	                    <li><a href="#সংবাদ">সংবাদ</a></li>
+	                    <li><a href="#ইতিহাস">ইতিহাস</a></li>
+						<li><a href="#আইনী পর্যালোচনা">আইনঙ্গন</a></li>
+						<li><a href="#রাজনীতি">সামসময়িক রাজনীতি</a></li>
+						<li><a href="#সাক্ষাৎকার">সাক্ষাৎকার </a></li>
+						<li><a href="#ব্যক্তিত্ব ও জীবনী">ব্যক্তিত্ব ও জীবনী</a></li>
+						<li><a href="#ইসলাম চিন্তা">ইসলাম চিন্তা</a></li>
+						<li><a href="#বিবিধ">বিবিধ</a></li>
+						<li><a href="#ব্লগ">ব্লগ</a></li>
+						<li><a href="#সাম্প্রতিক বিশ্ব">সাম্প্রতিক বিশ্ব</a></li>
+						<li><a href="#">আমাদের সম্পর্কে </a></li>
+						<li><a href="{%url 'contact'%}">যোগাযোগ</a></li>
+
+                      <!--Search  Start-->
+
+	                <ul class="nav navbar-nav navbar-right">
+	                    <li>
+	                        <form class="nav-search" action="search" method="GET">
+	                            <input type="text" name="q" class="form-control" placeholder="লিখনী অনুসন্ধান করুণ">
+	                            <button type="submit" class="btn-submit"><i class="fa fa-search"></i></button>
+	                        </form>
+	                    </li>
+	                </ul>
+	            </div>
+	            <!--/.nav-collapse -->
+	        </nav>
+	    </div>
+	</section>
+	<!--navigation end-->
+
+    <!--content-->
+    <section class="content">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-sm-9 col-md-9 ">
+	            	<div class="row">
+                        <div class="col-md-12">
+							<div class="content-col">
+								<!--breaking slide-->
+								<div class="breaking-news-slide clearfix">
+									<h5 class="bg1">সাম্প্রতিক</h5>
+									<div class="newsslider">
+										<ul class="slides">
+											<li> <a href={%static "#"%}>Martha Stewart had a really good pattern for a handbag….</a> </li>
+											<li> <a href="#">The World’s Youngest Billionaire is Just 24...</a> </li>
+											<li> <a href="#">Stewart had a really good pattern for a handbag Just 24….</a> </li>
+										</ul>
+									</div>
+								</div>
+								<!--breaking slide end-->
+
+								<!--flex slider-->
+								<div class="flex-slider2">
+									<div class="flexslider">
+
+										<ul class="slides">
+												{% for break in recent01 %}
+											<li>
+
+												<a href="{%url 'single' slug=break.slug %}" class="news-slider">
+													<img src={{break.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">আর্টিকেল</span>
+														<h3>{{break.title}}</h3>
+														<span class="date">{{break.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            {% for break2 in recent02 %}
+											<li>
+
+												<a href="{%url 'sin' slug=break2.slug %}" class="news-slider">
+													<img src={{break2.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">বুক রিভিউ</span>
+														<h3>{{break2.title}}</h3>
+														<span class="date">{{break2.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            	{% for break3 in recent03 %}
+											<li>
+
+												<a href="{%url 'samaz' slug=break3.slug %}" class="news-slider">
+													<img src={{break3.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">সমাজ সংস্কার</span>
+														<h3>{{break3.title}}</h3>
+														<span class="date">{{break3.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            {% for break4 in recent04 %}
+											<li>
+
+												<a href="{%url 'allnews' slug=break4.slug %}" class="news-slider">
+													<img src={{break4.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">সংবাদ</span>
+														<h3>{{break4.title}}</h3>
+														<span class="date">{{break4.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            {% for break5 in recent05 %}
+											<li>
+
+												<a href="{%url 'newhisto' slug=break5.slug %}" class="news-slider">
+													<img src={{break5.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">ইতিহাস</span>
+														<h3>{{break5.title}}</h3>
+														<span class="date">{{break5.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            {% for break6 in recent06 %}
+											<li>
+
+												<a href="{%url 'newlaws' slug=break6.slug %}" class="news-slider">
+													<img src={{break6.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">আইনঙ্গন</span>
+														<h3>{{break6.title}}</h3>
+														<span class="date">{{break6.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            {% for break7 in recent07 %}
+											<li>
+
+												<a href="{%url 'politics' slug=break7.slug %}" class="news-slider">
+													<img src={{break7.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">সামসময়িক রাজনীতি</span>
+														<h3>{{break7.title}}</h3>
+														<span class="date">{{break7.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            	{% for break8 in recent08 %}
+											<li>
+
+												<a href="{%url 'myinter' slug=break8.slug %}" class="news-slider">
+													<img src={{break8.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">সাক্ষাৎকার</span>
+														<h3>{{break8.title}}</h3>
+														<span class="date">{{break8.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            {% for break9 in recent09 %}
+											<li>
+
+												<a href="{%url 'myjibon' slug=break9.slug %}" class="news-slider">
+													<img src={{break9.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">ব্যক্তিত্ব ও জীবনী</span>
+														<h3>{{break9.title}}</h3>
+														<span class="date">{{break9.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            {% for break10 in recent10 %}
+											<li>
+
+												<a href="{%url 'myislam' slug=break10.slug %}" class="news-slider">
+													<img src={{break10.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">ইসলাম চিন্তা</span>
+														<h3>{{break10.title}}</h3>
+														<span class="date">{{break10.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            {% for break11 in recent11 %}
+											<li>
+
+												<a href="{%url 'mybibidh' slug=break11.slug %}" class="news-slider">
+													<img src={{break11.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">বিবিধ</span>
+														<h3>{{break11.title}}</h3>
+														<span class="date">{{break11.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            	{% for break12 in recent12 %}
+											<li>
+
+												<a href="{%url 'myblog' slug=break12.slug %}" class="news-slider">
+													<img src={{break12.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">ব্লগ</span>
+														<h3>{{break12.title}}</h3>
+														<span class="date">{{break12.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+                                            {% for break13 in recent13 %}
+											<li>
+
+												<a href="{%url 'myworld' slug=break13.slug %}" class="news-slider">
+													<img src={{break13.image.url}} alt="" class="img-responsive">
+													<div class="news-overlay">
+														<span class="tag bg3">সাম্প্রতিক বিশ্ব</span>
+														<h3>{{break13.title}}</h3>
+														<span class="date">{{break13.date}}</span>
+														<span class="view"><i class="fa fa-eye"></i></span>
+														<span class="comments"><i class="fa fa-comment"></i></span>
+													</div>
+												</a>
+											</li>
+												{% endfor %}
+										</ul>
+
+									</div>
+								</div>
+								<!--flex slider end-->
+							</div>
+						</div>
+						 <!--Most Read Here start	-->
+
+
+						<div class="col-md-12">
+							<div class="short-post">
+								<h3 class="main-title">জনপ্রিয় পোষ্ট</h3>
+								<div class="row">
+<!--									<div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s">-->
+										<!--media-->
+										{% for fms in famous01 %}
+										<div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'single' slug=fms.slug %}"> <img class="media-object" src={{fms.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'single' slug=fms.slug %}">{{fms.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fms.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+										{% endfor %}
+										<!--media-->
+										{% for fm2 in famous02 %}
+                                            <div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'sin' slug=fm2.slug %}"> <img class="media-object" src={{fm2.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'sin' slug=fm2.slug %}">{{fm2.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm2.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+                                               {% endfor %}
+<!--									</div>-->
+                                   		 {% for fm3 in famous03 %}
+                                     <div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'samaz' slug=fm3.slug %}"> <img class="media-object" src={{fm3.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'samaz' slug=fm3.slug %}">{{fm3.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm3.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+                                              {% endfor %}
+
+                                    {% for fm4 in famous04 %}
+                                     <div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'allnews' slug=fm4.slug %}"> <img class="media-object" src={{fm4.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'allnews' slug=fm4.slug %}">{{fm4.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm4.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+
+                                            {% endfor %}
+
+                                   	 {% for fm5 in famous05 %}
+                                  		<div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+                                     		 <div class="media">
+                                          <div class="media-left">
+                                              <a href="{%url 'newhisto' slug=fm5.slug %}"> <img class="media-object" src={{fm5.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'newhisto' slug=fm5.slug %}">{{fm5.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm5.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+                                    </div>
+                                    {% endfor %}
+
+                                    {% for fm6 in famous06 %}
+                                    <div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'newlaws' slug=fm6.slug %}"> <img class="media-object" src={{fm6.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'newlaws' slug=fm6.slug %}">{{fm6.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm6.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+                                            {% endfor %}
+                                    {% for fm7 in famous07 %}
+                                    <div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'politics' slug=fm7.slug %}"> <img class="media-object" src={{fm7.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'politics' slug=fm7.slug %}">{{fm7.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm7.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+                                            {% endfor %}
+
+                                    {% for fm8 in famous08 %}
+                                     <div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'myinter' slug=fm8.slug %}"> <img class="media-object" src={{fm8.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'myinter' slug=fm8.slug %}">{{fm8.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm8.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+                                            {% endfor %}
+                                    {% for fm9 in famous09 %}
+                                    <div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'myjibon' slug=fm9.slug %}"> <img class="media-object" src={{fm9.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'myjibon' slug=fm9.slug %}">{{fm9.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm9.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+                                            {% endfor %}
+
+                                    {% for fm10 in famous10 %}
+                                    <div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'myislam' slug=fm10.slug %}"> <img class="media-object" src={{fm10.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'myislam' slug=fm10.slug %}">{{fm10.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm10.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+                                            {% endfor %}
+                                    {% for fm11 in famous11 %}
+                                    <div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'mybibidh' slug=fm11.slug %}"> <img class="media-object" src={{fm11.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'mybibidh' slug=fm11.slug %}">{{fm11.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm11.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+                                            {% endfor %}
+                                        {% for fm12 in famous12 %}
+                                    <div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'myblog' slug=fm12.slug %}"> <img class="media-object" src={{fm12.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'myblog' slug=fm12.slug %}">{{fm12.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm12.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+                                            {% endfor %}
+                                    {% for fm13 in famous13 %}
+                                    <div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s" style="margin:15px 0;">
+											<div class="media">
+											<div class="media-left">
+												<a href="{%url 'myworld' slug=fm13.slug %}"> <img class="media-object" src={{fm13.image.url}} width="150" alt="..."> </a>
+											</div>
+											<div class="media-body">
+												<h4 class="media-heading"><a href="{%url 'myworld' slug=fm13.slug %}">{{fm13.title}}</a></h4>
+												<ul class="post-tools">
+													<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+													<li> {{fm13.date}} </li>
+													<li><a href="#"> <i class="ti-thought"></i></a> </li>
+												</ul>
+											</div>
+										</div>
+										</div>
+                                            {% endfor %}
+								</div>
+							</div>
+						</div>
+                    </div>
+                    <!--Most Read end -->
+                </div>
+
+	            <div class="col-sm-3 col-md-3">
+	            	<div class="sidebar-col">
+		                <div class="sidebar-box add wow animated fadeInUp" data-wow-delay="0.2s">
+		                    <a href="https://www.templatesell.com/item/quality-construction-pro-wordpress-themes/" target="blank">
+		                    	<img src={%static  "img/ad/ad.jpg"%} class="img-responsive" alt="">
+		                    </a>
+		                    <p class="text-right">Advertisement</p>
+		                </div>
+		                <div class="sidebar-box wow animated fadeInUp" data-wow-delay="0.4s">
+		                    <h3>Recent Posts</h3>
+							{% for kp01 in recent01 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'single' slug=kp01.slug %}"> <img class="media-object" src="{{kp01.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">আর্টিক্যাল</a>
+		                            <h4 class="media-heading"><a href="#">{{kp01.title}}</a></h4>
+		                            <span class="date"></span>
+
+		                        </div>
+		                    </div>
+							{% endfor %}
+		                    <!--media-->
+							{% for ok2 in recent02 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'sin' slug=ok2.slug %}"> <img class="media-object" src={{ok2.image.url}} width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">বুক রিভিউ</a>
+		                            <h4 class="media-heading"><a href="">{{ok2.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+		                    <!--media-->
+							{% for ok3 in recent03 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'samaz' slug=ok3.slug %}"> <img class="media-object" src="{{ok3.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">সমাজ সংস্কার</a>
+		                            <h4 class="media-heading"><a href="{%url 'samaz' slug=ok3.slug %}">{{ok3.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+		                    <!--media-->
+                                {% for ok4 in recent04 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'allnews' slug=ok4.slug %}"> <img class="media-object" src="{{ok4.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">সংবাদ</a>
+		                            <h4 class="media-heading"><a href="{%url 'allnews' slug=ok4.slug %}">{{ok4.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+                            {% for ok5 in recent05 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'newhisto' slug=ok5.slug %}"> <img class="media-object" src="{{ok5.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">ইতিহাস</a>
+		                            <h4 class="media-heading"><a href="{%url 'newhisto' slug=ok5.slug %}">{{ok5.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+                            {% for ok6 in recent06 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'newlaws' slug=ok6.slug %}"> <img class="media-object" src="{{ok6.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">আইনঙ্গন</a>
+		                            <h4 class="media-heading"><a href="{%url 'newlaws' slug=ok6.slug %}">{{ok6.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+                            {% for ok7 in recent07 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'politics' slug=ok7.slug %}"> <img class="media-object" src="{{ok7.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">সামসময়িক রাজনীতি</a>
+		                            <h4 class="media-heading"><a href="{%url 'politics' slug=ok7.slug %}">{{ok7.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+                            {% for ok8 in recent08 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'myinter' slug=ok8.slug %}"> <img class="media-object" src="{{ok8.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">সাক্ষাৎকার</a>
+		                            <h4 class="media-heading"><a href="{%url 'myinter' slug=ok8.slug %}">{{ok8.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+                            {% for ok9 in recent09 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'myjibon' slug=ok9.slug %}"> <img class="media-object" src="{{ok9.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">ব্যক্তিত্ব ও জীবনী</a>
+		                            <h4 class="media-heading"><a href="{%url 'myjibon' slug=ok9.slug %}">{{ok9.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+                            {% for ok10 in recent10 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'myislam' slug=ok10.slug %}"> <img class="media-object" src="{{ok10.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">ইসলাম চিন্তা</a>
+		                            <h4 class="media-heading"><a href="{%url 'myislam' slug=ok10.slug %}">{{ok10.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+                            {% for ok11 in recent11 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'mybibidh' slug=ok11.slug %}"> <img class="media-object" src="{{ok11.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">বিবিধ</a>
+		                            <h4 class="media-heading"><a href="{%url 'mybibidh' slug=ok11.slug %}">{{ok11.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+                            {% for ok12 in recent12 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'myblog' slug=ok12.slug %}"> <img class="media-object" src="{{ok12.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">ব্লগ</a>
+		                            <h4 class="media-heading"><a href="{%url 'myblog' slug=ok12.slug %}">{{ok12.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+
+                            {% for ok13 in recent13 %}
+		                    <div class="media">
+		                        <div class="media-left">
+		                            <a href="{%url 'myworld' slug=ok13.slug %}"> <img class="media-object" src="{{ok13.image.url}}" width="100" alt="..."> </a>
+		                        </div>
+		                        <div class="media-body">
+		                        	<a href="#" class="tag bg5">সাম্প্রতিক বিশ্ব</a>
+		                            <h4 class="media-heading"><a href="{%url 'myworld' slug=ok13.slug %}">{{ok13.title}}</a></h4>
+		                            <span class="date"></span>
+		                        </div>
+		                    </div>
+							{% endfor %}
+
+		                </div>
+
+<!--	            <div style="height: 40px;"></div>-->
+
+	    </div>
+	</section>
+
+    <!-- content end-->
+
+
+
+
+	<!--popular post Start-->
+	<div class="container">
+<!--		<div class="row">-->
+<!--			<div style="height: 40px;"></div>-->
+<!--			<div class="news-columns">&ndash;&gt;-->
+<!--				<h3 class="main-title">জনপ্রিয় পোষ্ট   <a href="{%url 'jono' %}" style="color: #fff;">views all</a> </h3>-->
+<!--				<div class="row">-->
+<!--					<div class="col-sm-12 wow animated fadeInUp" data-wow-delay="0.2s">-->
+<!--						<div class="column-post">-->
+<!--							<a href="#" class="img-thumbnail"> <img src={%static "img/post/p1.jpg alt="" class="img-responsive"> </a>-->
+<!--							<div class="topic">-->
+<!--								<a href="#" class="tag bg1">Travel</a>-->
+<!--								<h4><a href="#">Nuclear Fusion Closer to Becoming a Reality</a></h4>-->
+<!--								<p> Maecenas mauris elementum, est morbi interdum cursus at elite imperdiet libero. Proin odios dapibus integer an nulla augue pharetra cursus. </p>-->
+<!--								<ul class="post-tools">-->
+<!--									<li> by <a href="#"><strong> Canyon</strong> </a></li>-->
+<!--									<li>  5 Hours Ago </li>-->
+<!--									<li><a href="#"> <i class="ti-thought"></i> 57</a> </li>-->
+<!--								</ul>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					&lt;!&ndash;column post col-4&ndash;&gt;-->
+<!--					<div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.4s">-->
+<!--						<div class="column-post">-->
+<!--							<a href="#" class="img-thumbnail"> <img src="img/post/p2.jpg" alt="" class="img-responsive"> </a>-->
+<!--							<div class="topic">-->
+<!--								<a href="#" class="tag bg1">Science</a>-->
+<!--								<h4><a href="#">Nuclear Fusion Closer to Becoming a Reality</a></h4>-->
+<!--								<p> Maecenas mauris elementum, est morbi interdum cursus at elite imperdiet libero. Proin odios dapibus integer an nulla augue pharetra cursus. </p>-->
+<!--								<ul class="post-tools">-->
+<!--									<li> by <a href="#"><strong> Canyon</strong> </a></li>-->
+<!--									<li>  5 Hours Ago </li>-->
+<!--									<li><a href="#"> <i class="ti-thought"></i> 57</a> </li>-->
+<!--								</ul>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					&lt;!&ndash;column post col-4&ndash;&gt;-->
+<!--					<div class="col-sm-6 wow animated fadeInUp" data-wow-delay="0.6s">-->
+<!--						<div class="column-post">-->
+<!--							<a href="#" class="img-thumbnail"> <img src="img/post/p3.jpg" alt="" class="img-responsive"> </a>-->
+<!--							<div class="topic">-->
+<!--								<a href="#" class="tag bg1">Health</a>-->
+<!--								<h4><a href="#">Nuclear Fusion Closer to Becoming a Reality</a></h4>-->
+<!--								<p> Maecenas mauris elementum, est morbi interdum cursus at elite imperdiet libero. Proin odios dapibus integer an nulla augue pharetra cursus. </p>-->
+<!--								<ul class="post-tools">-->
+<!--									<li> by <a href="#"><strong> Canyon</strong> </a></li>-->
+<!--									<li>  5 Hours Ago </li>-->
+<!--									<li><a href="#"> <i class="ti-thought"></i> 57</a> </li>-->
+<!--								</ul>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--					&lt;!&ndash;column post col-4&ndash;&gt;-->
+<!--				</div>-->
+<!--				&lt;!&ndash;columns post row&ndash;&gt;-->
+<!--			</div>-->
+<!--			&lt;!&ndash;popular-post end&ndash;&gt;-->
+<!--		</div>-->
+
+	<div class="containe">
+		<div class="row">
+	<!--Artical start here-->
+			<div style="height: 40px;" id = "আর্টিকেল"></div>
+			<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+				<h3 class="main-title">আর্টিকেল <a href="{%url 'catagory'%}" style="color: #fff;">views all</a></h3>
+
+				<div id="post-carousel" class="owl-carousel">
+                             {% for a in my %}
+					<div>
+
+						<div class="column-post">
+
+							<a href="{%url 'single' slug=a.slug %}" class="img-thumbnail"> <img src={{a.image.url}} height="100" width="200" alt="" class="img-responsive"> </a>
+							<div class="topic"> <a href="#" class="tag bg2">আর্টিকেল</a>
+								<h4><a href={%url 'single' slug=a.slug %}>{{a.title}}</a></h4>
+								<p> {{a.body|truncatechars:100}} </p>
+								<ul class="post-tools">
+									<li> by <a href="#"><strong> ADMIN</strong> </a></li>
+									<li> {{a.date}} </li>
+									<li><a href="#"> <i class="ti-thought"></i> </a> </li>
+								</ul>
+							</div>
+
+						</div>
+
+					</div>
+									{% endfor %}
+					<!--item-->
+
+					<!--item-->
+
+					<!--item-->
+
+					<!--item-->
+
+					<!--item-->
+				</div>
+				<!--post slider-->
+			</div>
+			<!--Artical end here-->
+		</div>
+	</div>
+
+			<!--Start Book Review Here-->
+
+
+		`<div class="containe">
+			<div class="row">
+		<!--Artical start here-->
+				<div style="height: 40px;" id = "বুক রিভিউ"></div>
+				<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+					<h3 class="main-title">বুক রিভিউ<a href="{%url 'bookreview'%}" style="color: #fff;">views all</a> </h3>
+					<div id="nafiz" class="owl-carousel">
+						{%for b in me %}
+						<div>
+
+							<div class="column-post">
+
+								<a href="#" class="img-thumbnail"> <img src="{{b.image.url}}" height="100" width="200" alt="" class="img-responsive"> </a>
+								<div class="topic"> <a href="#" class="tag bg2">বুক রিভিউ</a>
+									<h4><a href="{%url 'sin' slug=b.slug %}">{{b.title}}</a></h4>
+									<p>{{b.body | truncatechars:100}}</p>
+									<ul class="post-tools">
+										<li> by <a href="#"><strong> Canyon</strong> </a></li>
+										<li> {{b.date}} </li>
+										<li><a href="#"> <i class="ti-thought"></i> 57</a> </li>
+									</ul>
+								</div>
+
+							</div>
+
+						</div>
+						{% endfor %}
+						<!--item-->
+
+						<!--item-->
+					</div>
+					<!--post slider-->
+				</div>
+				<!--Artical end here-->
+			</div>
+		</div>`
+	<!--samazik andolon start Here-->
+
+	<div class="containe">
+		<div class="row">
+			<div style="height: 40px;" id = "সমাজ সংস্কার"></div>
+			<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+				<h3 class="main-title">সমাজ সংস্কার<a href="{%url 'samazik'%}" style="color: #fff;">views all</a></h3>
+				<div id="imtiyaz" class="owl-carousel">
+					{% for c in somaj %}
+					<div>
+						<div class="column-post">
+							<a href="{%url 'samaz' slug=c.slug %}" class="img-thumbnail"> <img src="{{c.image.url}}" alt="" class="img-responsive"> </a>
+							<div class="topic"> <a href="" class="tag bg2">সমাজ সংস্কার</a>
+								<h4><a href="{%url 'samaz' slug=c.slug %}">{{c.title}}</a></h4>
+								<p>{{c.body| truncatechars:100}}</p>
+								<ul class="post-tools">
+									<li> by <a href="#"><strong> ADMIN</strong> </a></li>
+									<li>  5 Hours Ago </li>
+									<li><a href="#"> <i class="ti-thought"></i></a> </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+				<!--post slider-->
+			</div>
+			<!--samazik andolon end here-->
+		</div>
+	</div>
+	<div class="containe">
+		<div class="row">
+			<div style="height: 40px;" id = "সংবাদ"></div>
+			<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+				<h3 class="main-title">সংবাদ<a href="{%url 'songbad'%}" style="color: #fff;">views all</a></h3>
+				<div id="cse3" class="owl-carousel">
+					{%for d in mynews %}
+					<div>
+
+						<div class="column-post">
+							<a href="{%url 'allnews' slug=d.slug %}" class="img-thumbnail"> <img src={{d.image.url}} height="50" width="100"  alt="" class="img-responsive"> </a>
+							<div class="topic"> <a href="" class="tag bg2">সংবাদ</a>
+								<h4><a href="{%url 'allnews' slug=d.slug %}">{{d.title}}</a></h4>
+								<p> {{d.body | truncatechars:100}}</p>
+								<ul class="post-tools">
+									<li> by <a href="#"><strong> ADMIN</strong> </a></li>
+									<li> {{d.date}} </li>
+									<li><a href="#"> <i class="ti-thought"></i> 57</a> </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!--item-->
+					    {% endfor %}
+					<!--item-->
+				</div>
+				<!--post slider-->
+			</div>
+		</div>
+	</div>
+<!--	end	-->
+	<div class="containe">
+		<div class="row">
+			<div style="height: 40px;" id = "ইতিহাস"></div>
+			<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+				<h3 class="main-title">ইতিহাস<a href="{%url 'etihash'%}" style="color: #fff;">views all</a></h3>
+				<div id="cse4" class="owl-carousel">
+					{% for e in myhisto %}
+					<div>
+
+						<div class="column-post">
+							<a href="{%url 'newhisto' slug=e.slug %}" class="img-thumbnail"> <img src={{e.image.url}}  height="50" width="20" alt="" class="img-responsive"> </a>
+							<div class="topic"> <a href="" class="tag bg2">ইতিহাস</a>
+								<h4><a href="{%url 'newhisto' slug=e.slug %}">{{e.title}}</a></h4>
+								<p> {{e.body| truncatechars:100}} </p>
+								<ul class="post-tools">
+									<li> by <a href="#"><strong> ADMIN </strong> </a></li>
+									<li> {{e.date}} </li>
+									<li><a href="#"> <i class="ti-thought"></i> </a> </li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					{% endfor %}
+					<!--item-->
+
+					<!--item-->
+				</div>
+				<!--post slider-->
+			</div>
+		</div>
+	</div>
+
+	<div class="containe">
+		<div class="row">
+				<div style="height: 40px;" id = "আইনী পর্যালোচনা"></div>
+				<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+					<h3 class="main-title">আইনঙ্গন<a href="{%url 'crime' %}" style="color: #fff;">views all</a></h3>
+					<div id="cse5" class="owl-carousel">
+						{% for f in melaw %}
+						<div>
+							<div class="column-post">
+								<a href="{%url 'newlaws' slug=f.slug %}" class="img-thumbnail"> <img src={{f.image.url}} alt="" class="img-responsive"> </a>
+								<div class="topic"> <a href="" class="tag bg2">আইনঙ্গন</a>
+									<h4><a href="{%url 'newlaws' slug=f.slug %}">{{f.title}}</a></h4>
+									<p> {{f.body|truncatechars:100}} </p>
+									<ul class="post-tools">
+										<li> by <a href="#"><strong> ADMIN</strong> </a></li>
+										<li> {{f.date}} </li>
+										<li><a href="#"> <i class="ti-thought"></i> </a> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						<!--item-->
+
+					</div>
+					<!--post slider-->
+				</div>
+			</div>
+		</div>
+
+		<div class="containe">
+			<div class="row">
+				<div style="height: 40px;" id = "রাজনীতি"></div>
+				<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+					<h3 class="main-title">সামসময়িক রাজনীতি<a href="{%url 'rajniti'%}" style="color: #fff;">views all</a></h3>
+					<div id="cse6" class="owl-carousel">
+						{% for g in mypoli %}
+						<div>
+							<div class="column-post">
+								<a href="{%url 'politics' slug=g.slug %}" class="img-thumbnail"> <img src={{g.image.url}} alt="" class="img-responsive"> </a>
+								<div class="topic"> <a href="" class="tag bg2">সামসময়িক রাজনীতি</a>
+									<h4><a href="{%url 'politics' slug=g.slug %}">{{g.title}}</a></h4>
+									<p> {{g.body|truncatechars:100}} </p>
+									<ul class="post-tools">
+										<li> by <a href="#"><strong>ADMIN</strong> </a></li>
+										<li> {{g.date}}</li>
+										<li><a href="#"> <i class="ti-thought"></i></a> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						<!--item-->
+
+						<!--item-->
+					</div>
+					<!--post slider-->
+				</div>
+			</div>
+		</div>
+
+		<div class="containe">
+			<div class="row">
+				<div style="height: 40px;" id = "সাক্ষাৎকার"></div>
+				<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+					<h3 class="main-title">সাক্ষাৎকার<a href="{%url 'interview'%}" style="color: #fff;">views all</a></h3>
+					<div id="cse7" class="owl-carousel">
+						{% for h in allinter %}
+						<div>
+							<div class="column-post">
+								<a href="{%url 'myinter' slug=h.slug %}" class="img-thumbnail"> <img src="{{h.image.url}}" alt="" class="img-responsive"> </a>
+								<div class="topic"> <a href="#" class="tag bg2">সাক্ষাৎকার</a>
+									<h4><a href="{%url 'myinter' slug=h.slug %}">{{h.title}}</a></h4>
+									<p> {{h.body|truncatechars:100}} </p>
+									<ul class="post-tools">
+										<li> by <a href="#"><strong> ADMIN</strong> </a></li>
+										<li> {{h.date}} </li>
+										<li><a href="#"> <i class="ti-thought"></i></a> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						<!--item-->
+
+						<!--item-->
+					</div>
+					<!--post slider-->
+				</div>
+			</div>
+		</div>
+
+		<div class="containe">
+			<div class="row">
+				<div style="height: 40px;" id = "ব্যক্তিত্ব ও জীবনী"></div>
+				<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+					<h3 class="main-title">ব্যক্তিত্ব ও জীবনী<a href="{%url 'jiboni'%}" style="color: #fff;">views all</a></h3>
+					<div id="cse8" class="owl-carousel">
+						{% for i in myper %}
+						<div>
+							<div class="column-post">
+								<a href="{%url 'myjibon' slug=i.slug %}" class="img-thumbnail"> <img src={{i.image.url}} alt="" class="img-responsive"> </a>
+								<div class="topic"> <a href="#" class="tag bg2">ব্যক্তিত্ব ও জীবনী</a>
+									<h4><a href="{%url 'myjibon' slug=i.slug %}"> {{i.title}} </a></h4>
+									<p> {{i.body|truncatechars:100}} </p>
+									<ul class="post-tools">
+										<li> by <a href=""><strong> ADMIN</strong> </a></li>
+										<li> {{i.date}} </li>
+										<li><a href="#"> <i class="ti-thought"></i></a> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						<!--item-->
+
+						<!--item-->
+					</div>
+					<!--post slider-->
+				</div>
+			</div>
+		</div>
+
+		<div class="containe">
+			<div class="row">
+				<div style="height: 40px;" id = "ইসলাম চিন্তা"></div>
+				<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+					<h3 class="main-title">ইসলাম চিন্তা<a href="{%url 'islam'%}" style="color: #fff;">views all</a></h3>
+					<div id="cse9" class="owl-carousel">
+						{% for j in ourislam %}
+						<div>
+							<div class="column-post">
+								<a href="{%url 'myislam' slug=j.slug %}" class="img-thumbnail"> <img src={{j.image.url}} alt="" class="img-responsive"> </a>
+								<div class="topic"> <a href="#" class="tag bg2">ইসলাম চিন্তা</a>
+									<h4><a href="{%url 'myislam' slug=j.slug %}">{{j.title}}</a></h4>
+									<p> {{j.body|truncatechars:100}} </p>
+									<ul class="post-tools">
+										<li> by <a href=""><strong> ADMIN</strong> </a></li>
+										<li> {{j.date}} </li>
+										<li><a href="#"> <i class="ti-thought"></i></a> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						<!--item-->
+
+						<!--item-->
+					</div>
+					<!--post slider-->
+				</div>
+			</div>
+		</div>
+		<div class="containe">
+			<div class="row">
+				<div style="height: 40px;" id ="বিবিধ"></div>
+				<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+					<h3 class="main-title">বিবিধ<a href="{%url 'bibidh'%}" style="color: #fff;">views all</a></h3>
+					<div id="cse11" class="owl-carousel">
+						{% for k in ourbi %}
+						<div>
+							<div class="column-post">
+								<a href="{%url 'mybibidh' slug=k.slug %}" class="img-thumbnail"> <img src={{k.image.url}} alt="" class="img-responsive"> </a>
+								<div class="topic"> <a href="#" class="tag bg2">বিবিধ</a>
+									<h4><a href="{%url 'mybibidh' slug=k.slug %}">{{k.title}}</a></h4>
+									<p> {{k.body|truncatechars:100}} </p>
+									<ul class="post-tools">
+										<li> by <a href="#"><strong> Canyon</strong> </a></li>
+										<li> {{k.date}} </li>
+<!--										<li><a href="#"> <i class="ti-thought"></i> </a> </li>-->
+									</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						<!--item-->
+
+						<!--item-->
+					</div>
+					<!--post slider-->
+				</div>
+			</div>
+		</div>
+
+		<div class="containe">
+			<div class="row">
+				<div style="height: 40px;" id = "ব্লগ"></div>
+				<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+					<h3 class="main-title">ব্লগ<a href="{%url 'blog'%}" style="color: #fff;">views all</a></h3>
+
+					<div id="cse12" class="owl-carousel">
+						{% for l in ourblog %}
+						<div>
+							<div class="column-post">
+								<a href="{%url 'myblog' slug=l.slug %}" class="img-thumbnail"> <img src={{l.image.url}} alt="" class="img-responsive"> </a>
+								<div class="topic"> <a href="#" class="tag bg2">ব্লগ</a>
+									<h4><a href="{%url 'myblog' slug=l.slug %}">{{l.title}}</a></h4>
+									<p> {{l.body|truncatechars:100}} </p>
+									<ul class="post-tools">
+										<li> by <a href="#"><strong> ADMIN</strong> </a></li>
+										<li> {{l.date}} </li>
+										<li><a href="#"> <i class="ti-thought"></i> </a> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						<!--item-->
+
+						<!--item-->
+					</div>
+					<!--post slider-->
+				</div>
+			</div>
+		</div>
+
+
+		<div class="containe">
+			<div class="row">
+				<div style="height: 40px;" id = "সাম্প্রতিক বিশ্ব"></div>
+				<div class="news-carousel wow animated fadeInUp" data-wow-delay="0.2s">
+					<h3 class="main-title">সাম্প্রতিক বিশ্ব<a href="{%url 'samprotik'%}" style="color: #fff;">views all</a></h3>
+					<div id="cse13" class="owl-carousel">
+						{% for m in myrecent %}
+						<div>
+							<div class="column-post">
+								<a href="{%url 'myworld' slug=m.slug %}" class="img-thumbnail"> <img src={{m.image.url}} alt="" class="img-responsive"> </a>
+								<div class="topic"> <a href="" class="tag bg2">সাম্প্রতিক বিশ্ব</a>
+									<h4><a href="{%url 'myworld' slug=m.slug %}">{{m.title}}</a></h4>
+									<p> {{m.body|truncatechars:100}} </p>
+									<ul class="post-tools">
+										<li> by <a href="#"><strong> ADMIN</strong> </a></li>
+										<li> {{m.date}} </li>
+										<li><a href="#"> <i class="ti-thought"></i></a> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						<!--item-->
+
+						<!--item-->
+					</div>
+					<!--post slider-->
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!--footer-->
+    <div class="footer">
+    	<div class="container">
+    		<div class="row">
+	            <div class="col-md-3 col-sm-6">
+	                <h3>আমাদের সম্পর্কে</h3>
+	                <ul class="social-footer list-inline">
+	                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+	                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	                    <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+	                </ul>
+	            </div>
+	            <div class="col-md-3 col-sm-6">
+	                <h3>Twitter Feeds</h3>
+	                <ul class="list-unstyled twitter-feeds">
+	                    <li> <span>Maecenas mauris elementum, <a href="#">@canyonthemes</a> interdum cursus at elite.</span> <em>2 Hours ago</em> </li>
+	                    <li> <span>Maecenas mauris elementum, <a href="#">@canyonthemes</a> interdum cursus at elite.</span> <em>2 Hours ago</em> </li>
+	                </ul>
+	            </div>
+	            <div class="col-md-3 col-sm-6">
+	                <h3>আমাদের ঠিকানা</h3>
+					<p>লোটাস-বাড গলি, কালিকাপুর,মতলব,চাঁদপুর
+						Phone:+01 4593954 5959
+						Fax:+01 34534 5959
+						Email:example@gmail.com</p>
+
+	                <!--media-->
+
+	                <!--media-->
+	            </div>
+	            <div class="col-md-3 col-sm-6">
+	                <h3>Popular Tags</h3>
+	                <div class="tag-list">
+	                	<a href="#">Fashion</a>
+	                	<a href="#">Sports</a>
+	                	<a href="#">Business</a>
+	                	<a href="#">Politics</a>
+	                	<a href="#">Tennis</a>
+	                	<a href="#">Soccer</a>
+	                	<a href="#">Usa</a>
+	                	<a href="#">Cricket</a>
+	                	<a href="#">Health</a>
+	                	<a href="#">Nature</a>
+	                	<a href="#">Videos</a>
+	                	<a href="#">Asia</a>
+	                	<a href="#">Bootstrap</a>
+	                	<a href="#">Nba</a>
+	                	<a href="#">Africa</a>
+	                	<a href="#">Newser</a>
+	                	<a href="#">Flicks</a>
+	                </div>
+	            </div>
+        	</div>
+    	</div>
+		<center><span>&copy; Copyright 2020. All Right Reserved By <a href="http://resurrection-bd.com/">Resurretionbd.com</a></span></center>
+    </div>
+    <div class="footer-copyright">
+<!--    	<div class="container">-->
+<!--    		<span>&copy; Copyright 2020. All Right Reserved By <a href="http://resurrection-bd.com/">Resurretionbd.com</a></span>-->
+<!--    	</div>-->
+    </div>
+    <!--footer-->
+
+    <script src={%static "js/jquery.min.js"%}></script>
+    <script src={%static "js/bootstrap.min.js"%}></script>
+    <script src={%static "js/jquery.flexslider-min.js"%}></script>
+    <script src={%static "js/owl.carousel.js"%}></script>
+    <script src={%static "js/custom.js"%}></script>
+    <script src={%static "js/wow.min.js"%}></script>
+
+</body>
+
+
+</html>
